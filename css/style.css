@@ -1,0 +1,125 @@
+/* general style */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+}
+
+.out-line {
+    border: 5px solid black;
+}
+
+
+/* nav bar style */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.nav {
+    background-color: rgba(95, 86, 86, 0.575);
+}
+
+.nav .nav-img {
+    float: left;
+}
+
+.nav .nav-img img {
+    width: 80px;
+}
+
+.home ul {
+    float: right;
+    list-style-type: none;
+}
+
+.home ul li {
+    float: left;
+    padding: 20px;
+}
+
+.home ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+/* home section */
+
+.home {
+    background-image: url("../images/slider-v1704.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home .caption {
+    color: aliceblue;
+    /* margin collapse */
+    padding-top: 150px;
+}
+
+.home .caption p {
+    margin: 15px 0;
+}
+
+.bg-btn {
+    background-color: #c1ab84;
+}
+
+
+/* our story */
+
+.story {
+    margin: 20px 10px;
+}
+
+.story-caption {
+    float: right;
+    width: 60%;
+    padding: 100px 50px;
+}
+
+.story-img {
+    float: left;
+}
+
+.story-caption h2 {
+    margin: 20px;
+}
+
+.story-caption p {
+    line-height: 30px;
+}
+
+.story-caption button {
+    margin-top: 50px;
+}
+
+
+/* bg style */
+
+.bg-section {
+    background-image: url(../images/fast-food-burgers-with-fries-cola-black-chalkboard_220925-8245.avif);
+    background-attachment: fixed;
+    height: 40vh;
+    background-position: center;
+    background-size: 100% 100%;
+}
